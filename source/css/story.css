@@ -1,0 +1,10 @@
+body {
+    background      : black none;
+}
+.menu {
+    text-align      : center;
+}
+.menu ul {
+    display         : inline-block;
+    text-align      : left;
+}

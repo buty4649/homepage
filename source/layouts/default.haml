@@ -1,0 +1,14 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title
+      = current_page.data.title
+    = stylesheet_link_tag "default"
+    - if current_page.data.additional_css
+      = stylesheet_link_tag current_page.data.additional_css
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+    = javascript_include_tag "jquery.marquee.js"
+    = javascript_include_tag "jquery.rightclick-disable.js"
+  %body
+    = yield

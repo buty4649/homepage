@@ -1,0 +1,18 @@
+.title {
+    color   : red;
+}
+.counter {
+    margin  : 30px auto;
+}
+.menu {
+    display         : inline-block;
+    list-style      : none;
+    text-align      : left;
+}
+.menu li {
+    font-size       : xx-large;
+    margin          : 10px auto;
+}
+.banner {
+    margin          : 30px auto;
+}

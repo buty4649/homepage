@@ -1,0 +1,12 @@
+!!! Frameset
+%html{:lang => "ja"}
+  %head
+    %meta{:content => "text/html;charset=utf-8", "http-equiv" => "content-type"}/
+    %title イラストページ
+    %link{:href => "default.css", :rel => "stylesheet"}/
+  %frameset{:cols => "20%,80%"}
+    %frame{:src => "story_left.html"}/
+    %frame{:src => "story_right.html"}/
+    %noframes
+      %body
+        = yield
