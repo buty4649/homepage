@@ -1,0 +1,24 @@
+body {
+	background	: black url(/image/background.gif) repeat;
+	color	: darkgray;
+}
+
+.main {
+	border		: 1px solid white;
+	background-color: black;
+	font-size	: small;
+	text-align	: center;
+	padding		: 50px 30px;
+	margin		: 50px 30px;
+	width		: 800px;
+}
+
+.red {
+	color : red;
+}
+
+hr {
+	border	   : 0;
+	background : url(/image/line.png) no-repeat center;
+	height     : 30px;
+}
