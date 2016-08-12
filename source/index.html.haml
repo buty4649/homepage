@@ -1,0 +1,78 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title †暗黒紅蓮堕天使☆武帝†のサイト
+    %link{:href => "/css/default.css", :rel => "stylesheet"}/
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+    %script{:src => "/js/jquery.marquee.js"}
+    %script{:src => "/js/jquery.rightclick-disable.js"}
+    :css
+      .title {
+              color   : red;
+      }
+      .counter {
+              margin  : 30px auto;
+      }
+      .menu {
+              display         : inline-block;
+              list-style      : none;
+              text-align      : left;
+      }
+      .menu li {
+              font-size       : xx-large;
+              margin          : 10px auto;
+      }
+      .banner {
+              margin          : 30px auto;
+      }
+  %body
+    .main
+      %header
+        %h1.title
+          † Butei No Web Site †
+        %marquee{:behavior => "alternate", :direction => "left", :scrollamount => "10", :width => "80%"}
+          ようこそ！
+          %span.red> †暗黒紅蓮堕天使☆武帝†
+          のサイトへ
+        .counter
+          あなたは
+          %img{:src => "/image/counter.gif"}>/
+          人目の迷い人です。
+          %br/
+          %span.red
+            ※ キリ番の人はBBSにカキコお願いします。踏み逃げ禁止！
+      %hr/
+      %div
+        %ul.menu
+          %li
+            %a{:href => "profile.html"} プロフィール
+          %li
+            %a{:href => "http://buty4649.hatenablog.com"} ブログ
+          %li
+            %a{:href => "illust.html"} イラスト
+          %li
+            %a{:href => "story.html"} 小説
+            %img{:src => "/image/new.gif"}/
+          %li
+            %a{:href => ""} BBS
+      %hr/
+      %footer
+        .banner
+          お持ち帰り用バナー
+          %br/
+          %img{:src => "/image/banner_big.png"}/
+        ※ 各画像は
+        %a{:href => "http://fairy-tail.com/index.html"}> FairyTail様
+        、
+        %a{:href => "http://bluegreen.jp/index.html"}> blue-green様
+        、
+        %a{:href => "http://sozai.akuseru-design.com/"}> 超シンプル素材集
+        よりお借りしました。
+        %br/
+        ※ このサイトは、1024x768 16ビット以上の解像度奨励です。
+        %br/
+        This site is japanese only.
+        %br/
+        %br/
+        %div{:style => "color:#202020"} このサイトは唐突に更地になる可能性がありますん
