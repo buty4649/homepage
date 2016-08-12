@@ -22,16 +22,16 @@ additional_css: toppage
   %div
     %ul.menu
       %li
-        %a{:href => "profile.html"} プロフィール
+        = link_to 'プロフィール', '/profile.html'
       %li
-        %a{:href => "http://buty4649.hatenablog.com"} ブログ
+        = link_to 'ブログ', 'http://buty4649.hatenablog.com'
       %li
-        %a{:href => "illust.html"} イラスト
+        = link_to 'イラスト', '/illust.html'
       %li
-        %a{:href => "story.html"} 小説
+        = link_to '小説', '/story.html'
         %img{:src => "/image/new.gif"}/
       %li
-        %a{:href => ""} BBS
+        = link_to 'BBS', ''
   %hr/
   %footer
     .banner
@@ -39,11 +39,11 @@ additional_css: toppage
       %br/
       %img{:src => "/image/banner_big.png"}/
     ※ 各画像は
-    %a{:href => "http://fairy-tail.com/index.html"}> FairyTail様
+    = link_to 'FairyTail様', 'http://fairy-tail.com/index.html'
     、
-    %a{:href => "http://bluegreen.jp/index.html"}> blue-green様
+    = link_to 'blue-green様', 'http://bluegreen.jp/index.html'
     、
-    %a{:href => "http://sozai.akuseru-design.com/"}> 超シンプル素材集
+    = link_to '超シンプル素材集', 'http://sozai.akuseru-design.com/'
     よりお借りしました。
     %br/
     ※ このサイトは、1024x768 16ビット以上の解像度奨励です。
