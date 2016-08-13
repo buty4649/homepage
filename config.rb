@@ -21,6 +21,9 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 set :build_dir, 'public'
 
+# story.htmlだけFramesetを使いたい
+page '/story.html', :format => :html4
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
